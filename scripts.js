@@ -28,7 +28,7 @@ const portfolio = document.querySelector('.cta')
 const resume = document.getElementById('cta')
 
 portfolio.addEventListener('click', ()=> clickItem(portfolio, 'Portfolio'))
-resume.addEventListener('click', ()=> clickItem(resume, 'Resume'))
+resume.addEventListener('click', ()=> clickItem(resume, 'Download Resume'))
 
 function clickItem(item, content) {
     item.innerHTML = 'Processing'
